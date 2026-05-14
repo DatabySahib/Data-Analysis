@@ -7,31 +7,31 @@ The primary goal of this project is to perform deep statistical analysis and tra
 ## Repository Structure
 The project is organized into 5 specialized Jupyter Notebooks, each focusing on a critical stage of the data science pipeline:
 
-Exploratory Data Analysis (EDA): Initial data profiling, understanding distributions, and identifying key patterns.
+1. Exploratory Data Analysis (EDA): Initial data profiling, understanding distributions, and identifying key patterns.
 
-Data Pre-processing: Handling missing values, removing duplicates, and managing outliers to ensure data integrity.
+2. Data Pre-processing: Handling missing values, removing duplicates, and managing outliers to ensure data integrity.
 
-Feature Engineering: Creating new predictive variables and performing categorical encoding (One-Hot, Label Encoding) to enhance model signals.
+3. Feature Engineering: Creating new predictive variables and performing categorical encoding (One-Hot, Label Encoding) to enhance model signals.
 
-Advanced Visualization: Leveraging statistical plots (Heatmaps, Pair plots, Box plots) to uncover hidden correlations.
+4. Advanced Visualization: Leveraging statistical plots (Heatmaps, Pair plots, Box plots) to uncover hidden correlations.
 
-Data Scaling & Preparation: Final transformations, including feature scaling (Standardization/Normalization), to prepare the data for the ML stage.
+5. Data Scaling & Preparation: Final transformations, including feature scaling (Standardization/Normalization), to prepare the data for the ML stage.
 
 ## Tech Stack
-Language: Python
+· Language: Python
 
-Data Manipulation: Pandas, NumPy
+· Data Manipulation: Pandas, NumPy
 
-Visualization: Seaborn, Matplotlib
+· Visualization: Seaborn, Matplotlib
 
-Pre-processing: Scikit-learn (SimpleImputer, StandardScaler, etc.)
+· Pre-processing: Scikit-learn (SimpleImputer, StandardScaler, etc.)
 
 ## Key Highlights
-Identified and treated significant data skews and missingness.
+· Identified and treated significant data skews and missingness.
 
-Engineered domain-specific features that provide stronger insights into the target variable.
+· Engineered domain-specific features that provide stronger insights into the target variable.
 
-Generated a clean, scaled, and encoded final dataset ready for model training.
+· Generated a clean, scaled, and encoded final dataset ready for model training.
 
 ## How to Run
 ### 1. Clone the repository:
@@ -42,4 +42,4 @@ Generated a clean, scaled, and encoded final dataset ready for model training.
 
 ```pip install pandas numpy seaborn matplotlib scikit-learn```
 
-3. Execute the notebooks: Run the files in numerical order to follow the logical workflow.
+### 3. Execute the notebooks: Run the files in numerical order to follow the logical workflow.
